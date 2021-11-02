@@ -39,6 +39,5 @@ func main() {
 	fmt.Println(numSlice)
 
 	slice3 := append(numSlice, 3, 0, -1)
-
 	fmt.Println(slice3)
 }
