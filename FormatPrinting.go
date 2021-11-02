@@ -12,12 +12,12 @@ func main() {
 	fmt.Println(name + " Dasari")
 	fmt.Println(pi)
 	fmt.Printf("%f \n", pi)
-	fmt.Printf("%.3f \n", pi)
+	fmt.Printf("%.3f \n", pi) //Returns three decimal or floating values
 	fmt.Printf("%T \n", name) //Returns Data type
 	fmt.Printf("%t \n", win)  //Return Boolean
-	fmt.Printf("%d \n", x)
-	fmt.Printf("%b \n", 3)
-	fmt.Printf("%c \n", 3)
-	fmt.Printf("%x \n", 15)
-	fmt.Printf("%e \n", pi)
+	fmt.Printf("%d \n", x)    //Returns Integer
+	fmt.Printf("%b \n", 3)    //Returns Binaries
+	fmt.Printf("%c \n", 3)    //Returns ASCII
+	fmt.Printf("%x \n", 15)   //Returns Hex Code
+	fmt.Printf("%e \n", pi)   //Retuens Scientific notations
 }
